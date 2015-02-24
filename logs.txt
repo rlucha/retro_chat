@@ -1,0 +1,66 @@
+2015-02-24T08:26:28.151607+00:00 heroku[api]: Enable Logplex by rlucha@gmail.com
+2015-02-24T08:26:28.151607+00:00 heroku[api]: Release v2 created by rlucha@gmail.com
+2015-02-24T08:28:21.370541+00:00 heroku[api]: Scale to web=1 by rlucha@gmail.com
+2015-02-24T08:28:21.463509+00:00 heroku[api]: Deploy f9d35ff by rlucha@gmail.com
+2015-02-24T08:28:21.463509+00:00 heroku[api]: Release v3 created by rlucha@gmail.com
+2015-02-24T08:28:23.292421+00:00 heroku[web.1]: Starting process with command `node index.js`
+2015-02-24T08:28:24.555922+00:00 app[web.1]: Detected 512 MB available memory, 512 MB limit per process (WEB_MEMORY)
+2015-02-24T08:28:24.555946+00:00 app[web.1]: Recommending WEB_CONCURRENCY=1
+2015-02-24T08:29:23.512761+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2015-02-24T08:29:23.512761+00:00 heroku[web.1]: Stopping process with SIGKILL
+2015-02-24T08:29:24.379195+00:00 heroku[web.1]: Process exited with status 137
+2015-02-24T08:29:24.397286+00:00 heroku[web.1]: State changed from starting to crashed
+2015-02-24T08:29:24.397936+00:00 heroku[web.1]: State changed from crashed to starting
+2015-02-24T08:29:26.366309+00:00 heroku[web.1]: Starting process with command `node index.js`
+2015-02-24T08:29:28.413305+00:00 app[web.1]: Detected 512 MB available memory, 512 MB limit per process (WEB_MEMORY)
+2015-02-24T08:29:28.413324+00:00 app[web.1]: Recommending WEB_CONCURRENCY=1
+2015-02-24T08:29:43.581366+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=murmuring-falls-4254.herokuapp.com request_id=0520c81d-12f0-45ac-914d-8d853222fc08 fwd="79.155.113.151" dyno= connect= service= status=503 bytes=
+2015-02-24T08:30:26.924171+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2015-02-24T08:30:26.924217+00:00 heroku[web.1]: Stopping process with SIGKILL
+2015-02-24T08:30:27.672017+00:00 heroku[web.1]: Process exited with status 137
+2015-02-24T08:30:28.641564+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=retrochat.herokuapp.com request_id=d9834609-9c02-4b7d-9a8d-cf9de3f78154 fwd="79.155.113.151" dyno= connect= service= status=503 bytes=
+2015-02-24T08:30:29.189916+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=retrochat.herokuapp.com request_id=32eb50d3-6c0e-4fb9-8fb2-3913730d54f7 fwd="79.155.113.151" dyno= connect= service= status=503 bytes=
+2015-02-24T08:30:27.687898+00:00 heroku[web.1]: State changed from starting to crashed
+2015-02-24T08:37:26.857280+00:00 heroku[api]: Deploy 1b10ff1 by rlucha@gmail.com
+2015-02-24T08:37:26.857280+00:00 heroku[api]: Release v4 created by rlucha@gmail.com
+2015-02-24T08:37:27.010984+00:00 heroku[web.1]: State changed from crashed to starting
+2015-02-24T08:37:30.226148+00:00 heroku[web.1]: Starting process with command `node index.js`
+2015-02-24T08:37:31.687548+00:00 app[web.1]: Detected 512 MB available memory, 512 MB limit per process (WEB_MEMORY)
+2015-02-24T08:37:31.687570+00:00 app[web.1]: Recommending WEB_CONCURRENCY=1
+2015-02-24T08:37:50.263157+00:00 heroku[api]: Deploy 1b10ff1 by rlucha@gmail.com
+2015-02-24T08:37:50.263157+00:00 heroku[api]: Release v5 created by rlucha@gmail.com
+2015-02-24T08:37:52.057012+00:00 heroku[web.1]: Starting process with command `node index.js`
+2015-02-24T08:37:53.328471+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-02-24T08:37:53.557578+00:00 app[web.1]: Detected 512 MB available memory, 512 MB limit per process (WEB_MEMORY)
+2015-02-24T08:37:53.557601+00:00 app[web.1]: Recommending WEB_CONCURRENCY=1
+2015-02-24T08:37:54.767570+00:00 heroku[web.1]: Process exited with status 143
+2015-02-24T08:38:43.420278+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=retrochat.herokuapp.com request_id=0a212ad1-bd31-4a0d-b4af-992bb3888436 fwd="79.155.113.151" dyno= connect= service= status=503 bytes=
+2015-02-24T08:38:52.153840+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2015-02-24T08:38:52.153950+00:00 heroku[web.1]: Stopping process with SIGKILL
+2015-02-24T08:38:52.908611+00:00 heroku[web.1]: Process exited with status 137
+2015-02-24T08:38:52.963278+00:00 heroku[web.1]: State changed from starting to crashed
+2015-02-24T08:38:54.025990+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=retrochat.herokuapp.com request_id=dfd38db4-252c-4918-97cd-7579edfe8369 fwd="79.155.113.151" dyno= connect= service= status=503 bytes=
+2015-02-24T08:38:56.058423+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=retrochat.herokuapp.com request_id=02c05c39-1f7a-47c8-a479-c6080e609609 fwd="79.155.113.151" dyno= connect= service= status=503 bytes=
+2015-02-24T08:38:57.217986+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=retrochat.herokuapp.com request_id=86aebeff-5668-4840-b2de-31f94c8734f6 fwd="79.155.113.151" dyno= connect= service= status=503 bytes=
+2015-02-24T08:40:02.902452+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=retrochat.herokuapp.com request_id=e28f453c-217d-4033-9eca-01acead6548a fwd="79.155.113.151" dyno= connect= service= status=503 bytes=
+2015-02-24T08:40:03.129411+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=retrochat.herokuapp.com request_id=c0015137-4e21-43d1-b9dd-03a26c2db27d fwd="79.155.113.151" dyno= connect= service= status=503 bytes=
+2015-02-24T08:40:40.520607+00:00 heroku[web.1]: State changed from crashed to starting
+2015-02-24T08:40:42.702010+00:00 heroku[web.1]: Starting process with command `node index.js`
+2015-02-24T08:40:44.452545+00:00 app[web.1]: Detected 512 MB available memory, 512 MB limit per process (WEB_MEMORY)
+2015-02-24T08:40:44.452568+00:00 app[web.1]: Recommending WEB_CONCURRENCY=1
+2015-02-24T08:41:42.939952+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2015-02-24T08:41:42.940060+00:00 heroku[web.1]: Stopping process with SIGKILL
+2015-02-24T08:41:43.828701+00:00 heroku[web.1]: Process exited with status 137
+2015-02-24T08:41:43.843600+00:00 heroku[web.1]: State changed from starting to crashed
+2015-02-24T08:44:44.912487+00:00 heroku[api]: Deploy 1b10ff1 by rlucha@gmail.com
+2015-02-24T08:44:44.912487+00:00 heroku[api]: Release v6 created by rlucha@gmail.com
+2015-02-24T08:44:45.559054+00:00 heroku[web.1]: State changed from crashed to starting
+2015-02-24T08:44:47.606957+00:00 heroku[web.1]: Starting process with command `node index.js`
+2015-02-24T08:44:49.350639+00:00 app[web.1]: Detected 512 MB available memory, 512 MB limit per process (WEB_MEMORY)
+2015-02-24T08:44:49.350668+00:00 app[web.1]: Recommending WEB_CONCURRENCY=1
+2015-02-24T08:45:48.230120+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2015-02-24T08:45:48.230120+00:00 heroku[web.1]: Stopping process with SIGKILL
+2015-02-24T08:45:49.048626+00:00 heroku[web.1]: Process exited with status 137
+2015-02-24T08:45:49.070238+00:00 heroku[web.1]: State changed from starting to crashed
+2015-02-24T08:46:49.059103+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=retrochat.herokuapp.com request_id=f8b1151f-3875-4e32-b9c7-a48fc58d2d36 fwd="79.155.113.151" dyno= connect= service= status=503 bytes=
+2015-02-24T08:46:49.900929+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=retrochat.herokuapp.com request_id=f946682e-e5ab-47f5-a5b7-3a972285c626 fwd="79.155.113.151" dyno= connect= service= status=503 bytes=
