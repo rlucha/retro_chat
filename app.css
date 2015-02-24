@@ -1,0 +1,92 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    background: #123d5d;
+    color:#FFF;
+    font-family: 'VT323';
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'VT323';
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+li {
+    padding: 0.5rem;
+    color:#c7dbdc;
+    list-style: none;
+}
+
+.name {
+    color:#1eb6a8;
+}
+
+.actionArea {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #0d2e46;
+    padding: 1rem;
+    vertical-align: middle;
+}
+
+.nameInput {
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+}
+
+.whatsyourname {
+    background: #0d2e46;
+    width: 20rem;
+    margin: 0 auto;
+    margin-top: 30vh;
+    position: relative;
+    padding: 2rem;
+}
+
+form {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    display: flex;
+}
+
+#messages {
+    padding: 1rem;
+}
+
+#m {
+    background: transparent;
+    font-family: 'VT323';
+    color:#fabb1c;
+    float: left;
+    display: inline-block;
+    font-size: 1.5rem;
+    border: 0;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+#m:hover {
+    background: #2c4964;
+}
+
+#m:focus {
+    outline: 0;
+}
+
+.sendButton {
+    min-width: 10rem;
+    float: left;
+    display: inline-block;
+    border: 0;
+    background: #6ba074;
+    padding: 1rem;
+    font-family: 'VT323';
+    color: #FFF;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+

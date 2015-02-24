@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>Socket.IO chat</title>
+    <link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <ul id="messages"></ul>
+    <div class="actionArea">
+
+        <form action="">
+            <input class="nameInput" id="m" autocomplete="off" autofocus="autofocus" />
+            <button class="sendButton">Send</button>
+        </form>
+    </div>
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script>
+        var socket = io();
+
+        $('form').submit(function(){
+          socket.emit('chat message', '<span class="name">' + sessionStorage.getItem("username") + '</span> ' + $('#m').val());
+          $('#m').val('');
+          return false;
+      });
+        socket.on('chat message', function(msg){
+          $('#messages').append($('<li>').html(msg));
+      });
+    </script>
+</body>
+</html>

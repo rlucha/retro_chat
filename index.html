@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>Socket.IO chat</title>
+    <link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="whatsyourname">
+        <form id="myname" action="">
+            <p>What's your name?</p>
+            <input id="m" style="width:100%" autocomplete="off" autofocus />
+        </form>
+
+    </div>
+
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script>
+        $('#myname').submit(function(e){
+            e.preventDefault();
+            sessionStorage.setItem("username", m.value)
+            window.location.assign('chatroom');
+        });
+    </script>
+</body>
+</html>
