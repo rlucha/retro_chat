@@ -1,7 +1,7 @@
 {
-  "name": "RetroChat!",
+  "name": "retrochat",
   "description": "A retro chat. Duh",
-  "repository": "https://github.com/rlucha/retroChat",
+  "repository": "https://github.com/rlucha/retro_chat",
   "logo": "",
   "keywords": ["node", "express", "socket.io"]
 }

@@ -10,12 +10,11 @@ io.on('connection', function(socket){
     });
 });
 
-http.listen(1337);
+http.listen(5000);
 
 /* ROUTES */
 
 router.get('/', function(req, res) {
-    console.log("root");
     res.sendFile(__dirname + '/index.html');
 });
 
